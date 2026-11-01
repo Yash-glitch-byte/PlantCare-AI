@@ -1,0 +1,11 @@
+# ====================================================================
+# PlantCare AI — GitHub Linguist Language Attribute Overrides
+# Prioritize Python and IoT Firmware as primary platform languages
+# ====================================================================
+
+# Treat web dashboard UI assets as vendored in repository language statistics
+frontend/** linguist-vendored
+
+# Ensure Python backend, ML research, and IoT C++ firmware are highlighted
+backend/**/*.py linguist-detectable=true
+hardware/**/*.ino linguist-detectable=true
